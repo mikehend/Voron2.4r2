@@ -416,3 +416,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Telegram bot credentials (keep private)
+telegram_bot/telegram.conf

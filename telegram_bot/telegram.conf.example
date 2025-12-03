@@ -1,0 +1,22 @@
+# Telegram Bot Configuration Example
+# Copy this file to telegram.conf and fill in your credentials
+# IMPORTANT: telegram.conf is in .gitignore and will NOT be committed to git
+
+[bot]
+server: localhost
+bot_token: YOUR_BOT_TOKEN_HERE
+chat_id: YOUR_CHAT_ID_HERE
+
+[camera]
+host: http://localhost/webcam/?action=stream
+
+[progress_notification]
+percent: 5
+height: 5.0
+time: 600
+
+[timelapse]
+cleanup: true
+height: 0.2
+time: 5
+target_fps: 15
