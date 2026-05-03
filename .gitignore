@@ -419,3 +419,14 @@ FodyWeavers.xsd
 
 # Telegram bot credentials (keep private)
 telegram_bot/telegram.conf
+
+# Klipper auto-generated backup configs
+printer-*.cfg
+
+# Backup and temp files
+*.backup
+*.bkp
+
+# Log archives
+*.zip
+*.log
